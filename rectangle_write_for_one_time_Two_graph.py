@@ -30,7 +30,7 @@ def show_result(img,a,isSave):
         draw_rectangle(x, img) 
         draw_text(i,x[4],img)
 
-        cv2.imshow(str(i)+"Test",img)
+        cv2.imshow(str(i)+"Cat",img)
         
         if isSave:
             cv2.imwrite(str(i) + "Product.jpg",img)
